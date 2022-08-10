@@ -52,13 +52,11 @@ nav a {
   padding-right: 1em;
 }
 
-.home {
-    color: #ffe9d5;
-}
+
 nav a:hover {
     color: #ffe9d5;
-    transition: ease .3s;
-    transform: scale(1.1);
+    transition: ease .75s;
+    transform: scale(1.2);
 }
  a.bio {
     margin-top: 3em;
@@ -66,6 +64,7 @@ nav a:hover {
 
  a.experience {
     margin-top: 6em;
+    color: #ffe9d5;
 }
  a.work {
     margin-top: 9em;
@@ -90,7 +89,7 @@ main {
 .link_1 {
     height: 3em;
     width: 3em;
-    background-color:red;
+    
     border-radius: 100em;
 }
 /* selects elem with attribute === link  */
@@ -123,3 +122,53 @@ main {
     justify-content: center;
 }
 
+.exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin: auto;
+}
+
+.box {
+    margin-top: -14em;
+    width: 40em;
+    height: 50rem;
+    background: rgba( 255, 146, 43, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(255, 168, 85, 0.38);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.box:hover {
+    background-image: url(img/arthur-yao-hZmieWs0wQA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out .3s;
+  
+}
+h3 {
+    color: #ffa855;
+    text-align: center;
+    margin-top: 1.2em;
+    letter-spacing: 1.4px;
+   
+}
+
+p {
+    color: #ffe9d5;
+    margin-top: 3em;
+    backdrop-filter: blur(10px) opacity(.8);
+    text-align: justify;
+    padding: 1em 1.5em;
+    opacity: .1;
+}
+
+ p:hover {
+
+   z-index: 20 !important;
+  opacity: 1;
+   
+}
