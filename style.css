@@ -21,6 +21,8 @@ tint #ff922b
 body {
   background-color: #1a1a1a;
   font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 header {
@@ -28,7 +30,8 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height: 30vh;
-  /* background-color: red; */
+  /* border: 1px solid red; */
+  
 }
 
 h1 {
@@ -76,7 +79,87 @@ main {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    height: 60vh;
+    border: 1px solid black;
 }
+
+section {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  /* height: 80%; */
+}
+
+article {
+margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+h2 {
+  color: #ffa855;
+  letter-spacing: 1.4px;
+  font-size: 2em;
+}
+/* greeetings */
+.greetings {
+  color:#b3661e;
+  letter-spacing: 1.6px;
+  font-size: 1.2em;
+}
+
+.greet {
+  color: #ffe9d5;
+  letter-spacing: 1.8px;
+  font-size: 2em;
+}
+/* end greeting */
+
+/* *****animations******************** */
+
+/* animate__fadeInUp */
+
+
+.anim_hello {
+  animation-name: animHello;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes animHello {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.anim_welcome {
+  animation-name: animWelcome;
+  animation-duration: 3s;
+  animation-timing-function: all;
+}
+
+@keyframes animWelcome{
+  0% {
+    margin-left: 3em;
+    opacity: 0;
+  }
+  50% {
+    margin-left: 2.8em;
+    opacity: .5;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
 .icons div {
     height: 3em;
     width: 3em;
@@ -123,3 +206,11 @@ main {
     justify-content: center;
 }
 
+footer {
+
+  color: #b3661e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
