@@ -1,0 +1,166 @@
+/* bg-color #1a1a1a 
+main color #b3661e
+shades #ffa855  #ffe9d5
+tint #ff922b
+
+
+
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30vh;
+  /* background-color: red; */
+}
+
+h1 {
+  color: #b3661e;
+  margin: 1em 1em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.4em;
+  text-decoration: underline;
+
+}
+
+nav {
+    display: flex;
+  /* background-color: aqua; */
+  margin-top: 1em;
+  padding: 1em;
+}
+nav a {
+  color: #ffa855;
+  text-decoration: none;
+  padding-right: 1em;
+}
+
+.bio{
+    color: #ffe9d5;
+}
+nav a:hover {
+    color: #ffe9d5;
+    transition: ease .75s;
+    transform: scale(1.2);
+}
+ a.bio {
+    margin-top: 3em;
+}
+
+ a.experience {
+    margin-top: 6em;
+}
+ a.work {
+    margin-top: 9em;
+}
+
+/* *******************main******************* */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.icons div {
+    height: 3em;
+    width: 3em;
+    background-color: #ff922b;
+    margin-bottom: 1em;
+    border-radius: 100em;
+    margin-left: 1em;
+}
+
+
+.link_1 {
+    height: 3em;
+    width: 3em;
+    background-color:red;
+    border-radius: 100em;
+}
+/* selects elem with attribute === link  */
+[class*="link"]:hover {
+   background-color: transparent;
+   transition: all ease .3s;
+} 
+.link_2 {
+    height: 5em !important;
+    width: 5em !important;
+    background-color:red;
+    border-radius: 100em;
+}
+.link_3 {
+    height: 7em !important;
+    width: 7em !important;
+    background-color:red;
+    border-radius: 100em;
+}
+
+
+.fa-solid, .fa-brands {
+    color:#ffe9d5;
+    font-size: 2em
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about_me {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_h2 {
+    color:#ff922b;
+    font-size: 2em;
+    letter-spacing: 1.6px;
+}
+
+.glassmorphism {
+    margin-top: -1.2em;
+    width: 70vw;
+    height: 50vh;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 #b3661e;
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-left: 1px solid #ffe9d5;
+    border-bottom: 1px solid #ffe9d5;
+    align-self: flex-start;
+    margin-left: -3em;
+}
+
+.glass, p {
+    margin-top: 2.5em;
+    color: #ffe9d5;
+    text-align: left;
+    letter-spacing: .8px;
+    line-height: 1.1;
+}
+span {
+    margin-left: 3em;
+    font-size: 4em;
+}
