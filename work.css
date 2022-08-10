@@ -88,7 +88,6 @@ main {
 .link_1 {
   height: 3em;
   width: 3em;
-  background-color: red;
   border-radius: 100em;
 }
 /* selects elem with attribute === link  */
@@ -97,15 +96,14 @@ main {
   transition: all ease 0.3s;
 }
 .link_2 {
-  height: 5em !important;
-  width: 5em !important;
-  background-color: red;
+  height: 5em;
+  width: 5em;
   border-radius: 100em;
 }
 .link_3 {
   height: 7em !important;
   width: 7em !important;
-  background-color: red;
+
   border-radius: 100em;
 }
 
@@ -115,11 +113,11 @@ main {
   font-size: 2em;
 }
 
-.intro {
+/* .intro {
   width: 100%;
   display: flex;
   justify-content: center;
-}
+} */
 
 .work {
   display: flex;
@@ -133,18 +131,18 @@ main {
 figure {
   border: 5px solid #ffe9d5;
   border-radius: 5px;
-  box-shadow: 9px 4px 31px -4px rgba(255,233,213,0.88);
--webkit-box-shadow: 9px 4px 31px -4px rgba(255,233,213,0.88);
--moz-box-shadow: 9px 4px 31px -4px rgba(255,233,213,0.88);
+  box-shadow: 9px 4px 31px -4px rgba(255, 233, 213, 0.88);
+  -webkit-box-shadow: 9px 4px 31px -4px rgba(255, 233, 213, 0.88);
+  -moz-box-shadow: 9px 4px 31px -4px rgba(255, 233, 213, 0.88);
   height: 25em;
   overflow: hidden;
 }
 
 figcaption {
-   color: whitesmoke;
-   height: 2em;
-   z-index: 28 !important;
-   margin-top: -2em;
+  color: whitesmoke;
+  height: 2em;
+  z-index: 28 !important;
+  margin-top: -2em;
 }
 img {
   border-radius: 5px;
@@ -157,10 +155,16 @@ img:hover {
 }
 
 .img_work {
-    color: #ff922b;
-    text-decoration: none;
-    position: fixed;
-    font-weight: 900;
-    backdrop-filter: invert(.9);
-    padding-left: 5em;
+  color: #ff922b;
+  text-decoration: none;
+  position: fixed;
+  font-weight: 900;
+  backdrop-filter: invert(0.9);
+  padding-left: 5em;
+}
+footer {
+  color: #b3661e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }

@@ -80,14 +80,12 @@ main {
     flex-direction: row;
     justify-content:space-between;
     height: 60vh;
-    border: 1px solid black;
 }
 
 section {
   display:flex;
   flex-direction: column;
   width: 100%;
-  /* height: 80%; */
 }
 
 article {
@@ -95,7 +93,6 @@ margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* border: 1px solid red; */
 }
 
 h2 {
@@ -116,6 +113,8 @@ h2 {
   font-size: 2em;
 }
 /* end greeting */
+
+
 
 /* *****animations******************** */
 
@@ -158,7 +157,7 @@ h2 {
   }
 }
 
-
+/* end animations */
 
 .icons div {
     height: 3em;
@@ -173,7 +172,6 @@ h2 {
 .link_1 {
     height: 3em;
     width: 3em;
-    background-color:red;
     border-radius: 100em;
 }
 /* selects elem with attribute === link  */

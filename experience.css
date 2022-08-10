@@ -3,14 +3,10 @@ main color #b3661e
 shades #ffa855  #ffe9d5
 tint #ff922b
 
-
-
-
-
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   margin: 0;
@@ -20,7 +16,7 @@ tint #ff922b
 
 body {
   background-color: #1a1a1a;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -28,20 +24,18 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height: 30vh;
-  /* background-color: red; */
 }
 
 h1 {
   color: #b3661e;
   margin: 1em 1em;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 2.4em;
   text-decoration: underline;
-
 }
 
 nav {
-    display: flex;
+  display: flex;
   /* background-color: aqua; */
   margin-top: 1em;
   padding: 1em;
@@ -52,123 +46,120 @@ nav a {
   padding-right: 1em;
 }
 
-
 nav a:hover {
-    color: #ffe9d5;
-    transition: ease .75s;
-    transform: scale(1.2);
+  color: #ffe9d5;
+  transition: ease 0.75s;
+  transform: scale(1.2);
 }
- a.bio {
-    margin-top: 3em;
+a.bio {
+  margin-top: 3em;
 }
 
- a.experience {
-    margin-top: 6em;
-    color: #ffe9d5;
+a.experience {
+  margin-top: 6em;
+  color: #ffe9d5;
 }
- a.work {
-    margin-top: 9em;
+a.work {
+  margin-top: 9em;
 }
 
 /* *******************main******************* */
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .icons div {
-    height: 3em;
-    width: 3em;
-    background-color: #ff922b;
-    margin-bottom: 1em;
-    border-radius: 100em;
-    margin-left: 1em;
+  height: 3em;
+  width: 3em;
+  background-color: #ff922b;
+  margin-bottom: 1em;
+  border-radius: 100em;
+  margin-left: 1em;
 }
 
-
 .link_1 {
-    height: 3em;
-    width: 3em;
-    
-    border-radius: 100em;
+  height: 3em;
+  width: 3em;
+
+  border-radius: 100em;
 }
 /* selects elem with attribute === link  */
 [class*="link"]:hover {
-   background-color: transparent;
-   transition: all ease .3s;
-} 
+  background-color: transparent;
+  transition: all ease 0.3s;
+}
 .link_2 {
-    height: 5em !important;
-    width: 5em !important;
-    background-color:red;
-    border-radius: 100em;
+  height: 5em !important;
+  width: 5em !important;
+  background-color: red;
+  border-radius: 100em;
 }
 .link_3 {
-    height: 7em !important;
-    width: 7em !important;
-    background-color:red;
-    border-radius: 100em;
+  height: 7em !important;
+  width: 7em !important;
+  background-color: red;
+  border-radius: 100em;
 }
 
-
-.fa-solid, .fa-brands {
-    color:#ffe9d5;
-    font-size: 2em
-}
-
-.intro {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.fa-solid,
+.fa-brands {
+  color: #ffe9d5;
+  font-size: 2em;
 }
 
 .exp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .box {
-    margin-top: -14em;
-    width: 40em;
-    height: 50rem;
-    background: rgba( 255, 146, 43, 0.25 );
-box-shadow: 0 8px 32px 0 rgba(255, 168, 85, 0.38);
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-top: -14em;
+  margin-left: -8em;
+  width: 30em;
+  height: 40rem;
+  background: rgba(255, 146, 43, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(255, 168, 85, 0.38);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .box:hover {
-    background-image: url(img/arthur-yao-hZmieWs0wQA-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: ease-in-out .3s;
-  
+  background-image: url(img/arthur-yao-hZmieWs0wQA-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.3s;
 }
+
 h3 {
-    color: #ffa855;
-    text-align: center;
-    margin-top: 1.2em;
-    letter-spacing: 1.4px;
-   
+  color: #ffa855;
+  text-align: center;
+  margin-top: 1.2em;
+  letter-spacing: 1.4px;
 }
 
 p {
-    color: #ffe9d5;
-    margin-top: 3em;
-    backdrop-filter: blur(10px) opacity(.8);
-    text-align: justify;
-    padding: 1em 1.5em;
-    opacity: .1;
+  color: #ffe9d5;
+  margin-top: 1em;
+  backdrop-filter: blur(10px) opacity(0.8);
+  text-align: left;
+  padding: 1em 1.5em;
+  opacity: 0.1;
 }
 
- p:hover {
-
-   z-index: 20 !important;
+p:hover {
   opacity: 1;
-   
+}
+
+footer {
+  color: #b3661e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 2em;
 }

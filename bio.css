@@ -42,7 +42,6 @@ h1 {
 
 nav {
     display: flex;
-  /* background-color: aqua; */
   margin-top: 1em;
   padding: 1em;
 }
@@ -55,6 +54,7 @@ nav a {
 .bio{
     color: #ffe9d5;
 }
+
 nav a:hover {
     color: #ffe9d5;
     transition: ease .75s;
@@ -88,10 +88,10 @@ main {
 
 
 .link_1 {
-    height: 3em;
-    width: 3em;
-    background-color:red;
+    
     border-radius: 100em;
+    width: 3em;
+    height: 3em;
 }
 /* selects elem with attribute === link  */
 [class*="link"]:hover {
@@ -101,20 +101,20 @@ main {
 .link_2 {
     height: 5em !important;
     width: 5em !important;
-    background-color:red;
+    /* font-size: 4em; */
     border-radius: 100em;
 }
 .link_3 {
-    height: 7em !important;
-    width: 7em !important;
-    background-color:red;
+    height: 7em;
+    width: 7em;
     border-radius: 100em;
 }
 
 
-.fa-solid, .fa-brands {
+i {
     color:#ffe9d5;
-    font-size: 2em
+    font-size: 2em;
+ 
 }
 
 .intro {
@@ -159,6 +159,7 @@ main {
     text-align: left;
     letter-spacing: .8px;
     line-height: 1.1;
+    padding: 1em;
 }
 span {
     margin-left: 3em;
