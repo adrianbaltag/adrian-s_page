@@ -164,3 +164,54 @@ footer {
   align-items: flex-end;
   margin-top: 6em;
 }
+
+/* ************media queries**************** */
+@media screen and (max-width: 500px) {
+  body {
+    height: 100vh;
+    height: 100vw;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  a.bio {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  a.experience {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+  a.work {
+    margin-top: 1em;
+    font-size: 1em;
+    margin-left: -3em;
+  }
+
+  .icons div {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    background: #1a1a1a;
+  }
+
+  .fa-solid,
+  .fa-brands {
+    font-size: 1.4em;
+  }
+  .link_3 {
+    margin-top: -2em;
+  }
+}

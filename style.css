@@ -200,3 +200,59 @@ footer {
   align-items: flex-end;
   margin-top: 6em;
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  a.bio {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  a.experience {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+  a.work {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  article {
+    margin-bottom: 2em;
+  }
+
+  .icons div {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    background: #1a1a1a;
+  }
+
+  .fa-solid,
+  .fa-brands {
+    font-size: 1.4em;
+  }
+  .link_3 {
+  margin-top: -2em;
+  }
+  footer {
+     margin-top: 4em; 
+    font-size: .6em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+}

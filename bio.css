@@ -9,8 +9,8 @@ tint #ff922b
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   margin: 0;
@@ -20,7 +20,7 @@ tint #ff922b
 
 body {
   background-color: #1a1a1a;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 100vh;
   width: 100vw;
 }
@@ -35,14 +35,13 @@ header {
 h1 {
   color: #b3661e;
   margin: 1em 1em;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 2.4em;
   text-decoration: underline;
-
 }
 
 nav {
-    display: flex;
+  display: flex;
   margin-top: 1em;
   padding: 1em;
 }
@@ -52,124 +51,221 @@ nav a {
   padding-right: 1em;
 }
 
-.bio{
-    color: #ffe9d5;
+.bio {
+  color: #ffe9d5;
 }
 
 nav a:hover {
-    color: #ffe9d5;
-    transition: ease .75s;
-    transform: scale(1.2);
+  color: #ffe9d5;
+  transition: ease 0.75s;
+  transform: scale(1.2);
 }
- a.bio {
-    margin-top: 3em;
+a.bio {
+  margin-top: 3em;
 }
 
- a.experience {
-    margin-top: 6em;
+a.experience {
+  margin-top: 6em;
 }
- a.work {
-    margin-top: 9em;
+a.work {
+  margin-top: 9em;
 }
 
 /* *******************main******************* */
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .icons div {
-    height: 3em;
-    width: 3em;
-    background-color: #ff922b;
-    margin-bottom: 1em;
-    border-radius: 100em;
-    margin-left: 1em;
+  height: 3em;
+  width: 3em;
+  background-color: #ff922b;
+  margin-bottom: 1em;
+  border-radius: 100em;
+  margin-left: 1em;
 }
 
-
 .link_1 {
-    height: 3em;
-    width: 3em;
-    border-radius: 100em;
+  height: 3em;
+  width: 3em;
+  border-radius: 100em;
 }
 /* selects elem with attribute === link  */
 [class*="link"]:hover {
-   background-color: transparent;
-   transition: all ease .3s;
-} 
+  background-color: transparent;
+  transition: all ease 0.3s;
+}
 .link_2 {
-    height: 5em !important;
-    width: 5em !important;
-    border-radius: 100em;
+  height: 5em !important;
+  width: 5em !important;
+  border-radius: 100em;
 }
 .link_3 {
-    height: 7em !important;
-    width: 7em !important;
-    border-radius: 100em;
+  height: 7em !important;
+  width: 7em !important;
+  border-radius: 100em;
 }
 
-
 i {
-    color:#ffe9d5;
-    font-size: 2em;
- 
+  color: #ffe9d5;
+  font-size: 2em;
 }
 
 .intro {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-
 .about_me {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about_h2 {
-    color:#ff922b;
-    font-size: 2em;
-    letter-spacing: 1.6px;
+  color: #ff922b;
+  font-size: 2em;
+  letter-spacing: 1.6px;
 }
 
 .glassmorphism {
-    margin-top: -1.2em;
-    width: 70vw;
+  margin-top: -1.2em;
+  width: 70vw;
+  height: 50vh;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 #b3661e;
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-left: 1px solid #ffe9d5;
+  border-bottom: 1px solid #ffe9d5;
+  align-self: flex-start;
+  margin-left: -3em;
+}
+
+.glass,
+p {
+  margin-top: 2.5em;
+  color: #ffe9d5;
+  text-align: left;
+  letter-spacing: 0.8px;
+  line-height: 1.1;
+  padding: 1em;
+}
+span {
+  margin-left: 3em;
+  font-size: 4em;
+}
+
+footer {
+  color: #b3661e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 5em;
+}
+
+/* *********media queries************** */
+
+@media screen and (max-width: 500px) {
+  body {
+    height: 100vh;
+    height: 100vw;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  a.bio {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  a.experience {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+  a.work {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  .icons div {
+    margin-bottom: 1em;
+    margin-left: 1em;
+    background: #1a1a1a;
+  }
+
+  .fa-solid,
+  .fa-brands {
+    font-size: 1.4em;
+  }
+  .link_3 {
+    margin-top: -2em;
+  }
+  footer {
+    margin-top: -5em;
+    font-size: 0.6em;
+  }
+
+  .about_h2 {
+    color: #ff922b;
+    font-size: 1.4em;
+    letter-spacing: 1.4px;
+    margin-left: -5em;
+    margin-bottom: -1em;
+  }
+
+  .glassmorphism {
+    margin-top: -2.2em;
+    width: 60vw;
     height: 50vh;
-    background: rgba( 255, 255, 255, 0.05 );
+    background: rgba(255, 255, 255, 0.05);
     box-shadow: 0 8px 32px 0 #b3661e;
-    backdrop-filter: blur( 2.5px );
-    -webkit-backdrop-filter: blur( 2.5px );
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     border-left: 1px solid #ffe9d5;
     border-bottom: 1px solid #ffe9d5;
     align-self: flex-start;
     margin-left: -3em;
-}
+  }
 
-.glass, p {
-    margin-top: 2.5em;
+  .glass,
+  p {
+    margin-top: 3.5em;
     color: #ffe9d5;
     text-align: left;
-    letter-spacing: .8px;
-    line-height: 1.1;
-    padding: 1em;
-}
-span {
-    margin-left: 3em;
-    font-size: 4em;
-}
-
-footer {
-    color: #b3661e;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-top: 5em;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    word-wrap: normal;
+    font-size: 0.8em;
   }
-  
+
+  span {
+    margin-left: 2em;
+    margin-top: -2em;
+    font-size: 1.8em;
+  }
+
+  footer {
+    margin-top: 4em;
+    font-size: 0.6em;
+  }
+}
