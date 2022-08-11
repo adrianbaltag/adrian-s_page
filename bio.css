@@ -21,6 +21,8 @@ tint #ff922b
 body {
   background-color: #1a1a1a;
   font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100vw;
 }
 
 header {
@@ -28,7 +30,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height: 30vh;
-  /* background-color: red; */
+  
 }
 
 h1 {
@@ -88,10 +90,9 @@ main {
 
 
 .link_1 {
-    
-    border-radius: 100em;
-    width: 3em;
     height: 3em;
+    width: 3em;
+    border-radius: 100em;
 }
 /* selects elem with attribute === link  */
 [class*="link"]:hover {
@@ -101,12 +102,11 @@ main {
 .link_2 {
     height: 5em !important;
     width: 5em !important;
-    /* font-size: 4em; */
     border-radius: 100em;
 }
 .link_3 {
-    height: 7em;
-    width: 7em;
+    height: 7em !important;
+    width: 7em !important;
     border-radius: 100em;
 }
 
@@ -165,3 +165,12 @@ span {
     margin-left: 3em;
     font-size: 4em;
 }
+
+footer {
+    color: #b3661e;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 5em;
+  }
+  

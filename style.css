@@ -9,8 +9,8 @@ tint #ff922b
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   margin: 0;
@@ -20,7 +20,7 @@ tint #ff922b
 
 body {
   background-color: #1a1a1a;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 100vh;
   width: 100vw;
 }
@@ -30,22 +30,18 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height: 30vh;
-  /* border: 1px solid red; */
-  
 }
 
 h1 {
   color: #b3661e;
   margin: 1em 1em;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 2.4em;
   text-decoration: underline;
-
 }
 
 nav {
-    display: flex;
-  /* background-color: aqua; */
+  display: flex;
   margin-top: 1em;
   padding: 1em;
 }
@@ -56,40 +52,40 @@ nav a {
 }
 
 .home {
-    color: #ffe9d5;
+  color: #ffe9d5;
 }
 nav a:hover {
-    color: #ffe9d5;
-    transition: ease .3s;
-    transform: scale(1.1);
+  color: #ffe9d5;
+  transition: ease 0.3s;
+  transform: scale(1.1);
 }
- a.bio {
-    margin-top: 3em;
+a.bio {
+  margin-top: 3em;
 }
 
- a.experience {
-    margin-top: 6em;
+a.experience {
+  margin-top: 6em;
 }
- a.work {
-    margin-top: 9em;
+a.work {
+  margin-top: 9em;
 }
 
 /* *******************main******************* */
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60vh;
 }
 
 section {
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
 }
 
 article {
-margin: 0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,7 +98,7 @@ h2 {
 }
 /* greeetings */
 .greetings {
-  color:#b3661e;
+  color: #b3661e;
   letter-spacing: 1.6px;
   font-size: 1.2em;
 }
@@ -114,12 +110,9 @@ h2 {
 }
 /* end greeting */
 
-
-
 /* *****animations******************** */
 
 /* animate__fadeInUp */
-
 
 .anim_hello {
   animation-name: animHello;
@@ -142,16 +135,16 @@ h2 {
   animation-timing-function: all;
 }
 
-@keyframes animWelcome{
+@keyframes animWelcome {
   0% {
     margin-left: 3em;
     opacity: 0;
   }
   50% {
     margin-left: 2.8em;
-    opacity: .5;
+    opacity: 0.5;
   }
-  
+
   100% {
     opacity: 1;
   }
@@ -160,55 +153,51 @@ h2 {
 /* end animations */
 
 .icons div {
-    height: 3em;
-    width: 3em;
-    background-color: #ff922b;
-    margin-bottom: 1em;
-    border-radius: 100em;
-    margin-left: 1em;
+  height: 3em;
+  width: 3em;
+  background-color: #ff922b;
+  margin-bottom: 1em;
+  border-radius: 100em;
+  margin-left: 1em;
 }
 
-
 .link_1 {
-    height: 3em;
-    width: 3em;
-    border-radius: 100em;
+  height: 3em;
+  width: 3em;
+  border-radius: 100em;
 }
 /* selects elem with attribute === link  */
 [class*="link"]:hover {
-   background-color: transparent;
-   transition: all ease .3s;
-} 
+  background-color: transparent;
+  transition: all ease 0.3s;
+}
 .link_2 {
-    height: 5em !important;
-    width: 5em !important;
-    background-color:red;
-    border-radius: 100em;
+  height: 5em !important;
+  width: 5em !important;
+  border-radius: 100em;
 }
 .link_3 {
-    height: 7em !important;
-    width: 7em !important;
-    background-color:red;
-    border-radius: 100em;
+  height: 7em !important;
+  width: 7em !important;
+  border-radius: 100em;
 }
 
-
-.fa-solid, .fa-brands {
-    color:#ffe9d5;
-    font-size: 2em
+.fa-solid,
+.fa-brands {
+  color: #ffe9d5;
+  font-size: 2em;
 }
 
 .intro {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
-
   color: #b3661e;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
+  margin-top: 1em;
 }
