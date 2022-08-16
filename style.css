@@ -86,7 +86,7 @@ footer {
   font-size: 1.4rem;
   color: #ffbe80;
   animation: anim-footer;
-  animation-duration: 1s;
+  animation-duration: .1s;
   animation-iteration-count: infinite;
 }
 
