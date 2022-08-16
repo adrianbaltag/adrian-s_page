@@ -78,12 +78,24 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .footer li {
   display: inline;
   font-size: 1.4rem;
   color: #ffbe80;
+  animation: anim-footer;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim-footer {
+
+  to {
+  color: #cc7522;
+   border-radius: 100%;
+  }
 }
 
 .footer li:hover {
@@ -94,6 +106,7 @@ footer {
 .footer ul > a {
   width: 100%;
   margin: 1em 1em;
+ 
 }
 
 .footer-par {
@@ -125,6 +138,27 @@ h2 {
   font-weight: 300;
 }
 
+h1 {
+  animation: anim-intro;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+@keyframes anim-intro {
+  from {
+    opacity: 0;
+  }
+}
+
+h2 {
+  animation: anim-h2;
+  animation-duration: 5s;
+}
+@keyframes anim-h2 {
+  from {
+    opacity: 0;
+    margin-left: -10%;
+  }
+}
 span {
   color: #cc7522;
 }
@@ -191,7 +225,7 @@ span {
 }
 
 .container--exp:hover {
-  background-image: url("img/arthur-yao-hZmieWs0wQA-unsplash.jpg");
+  background-image: url(img/arthur-yao-hZmieWs0wQA-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -358,6 +392,7 @@ figcaption a {
 
   .container--exp {
     max-width: 60%;
+    display: block;
   }
 
   .span-about {
