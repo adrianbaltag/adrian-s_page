@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adrian's Page</title>
-    <link rel="stylesheet" href="experience.css">
-    <script src="https://kit.fontawesome.com/51d66fbc81.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- **********header***************** -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Adrian's Page</h1>
+        <h3>Adrian's Page</h3>
         <nav>
-            <a class="home" id="home" href="index.html">home</a>
-            <a class="bio" href="bio.html">bio</a>
-            <a class="experience" href="#">experience</a>
-            <a class="work" href="work.html">work</a>
+          <ul class="header--ul">
+            <li><a href="index.html">home</a></li>
+  
+            <li ><a href="about.html" >about</a></li>
+  
+            <li><a href="#" class="exp--li">experience</a></li>
+  
+            <li><a href="work.html" >work</a></li>
+          </ul>
         </nav>
-    </header>
-
-<!-- *********end-header****************** -->
-<!-- ************************************************* -->
-<!-- ************main********************* -->
+      </header>
+  
     <main>
-        <section class="icons">
-             <!-- link to email not working due verizon security policy -->
-          <div class="link_1"><a href= "mailto: fbaltag83@gmail.com"  target="_blank"
-            ><i class="fa-solid fa-envelope"></i></a></div
-          >
-          <div class="link_2"><a href="https://github.com/adrianbaltag" target="_blank"
-            ><i class="fa-brands fa-github"></i></a></div
-          >
-         <div class="link_3"> <a
-            href="
-            https://urldefense.proofpoint.com/v2/url?u=https-3A__www.linkedin.com_in_adrian-2Dbaltag-2D747285221&d=DwICAg&c=udBTRvFvXC5Dhqg7UHpJlPps3mZ3LRxpb6__0PomBTQ&r=Yto6q-fMlAqNtCbRzVBaHPXWQZM7v-DXTFKzvvOXqIwEKDfNP9gRaK4mt9p68s6i&m=Gyzp8vZ7yG6B1tkAA_z9F4PtipvDTkBGd651ldPvu117vjlqKOxCgkfsoWgKXqFk&s=nG_-S_YOnnbQWS2O4CQwZ0zJm-c1A6bUDdmNpjvg7jQ&e="
-            target="_blank"
-            ><i class="fa-brands fa-linkedin"></i></a></div
-          >
-        </section>
-
-      <section class="exp">
-        <div class="box">
-            <h3>my resume</h3>
-          
-                 <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa asperiores nesciunt delectus suscipit eaque deleniti laborum, accusamus voluptatem! Repudiandae numquam exercitationem nihil deserunt labore ad minus, ex unde veritatis consequatur.</p>
-            <p class="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dignissimos. Dolorem beatae animi nesciunt adipisci nulla esse. Deserunt quasi perspiciatis, debitis ab aut animi iure optio exercitationem facere illum impedit.</p>
-            <p class="par">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad ea aliquam iure quidem error laboriosam, a vel architecto quas magni suscipit ipsa unde doloribus cumque corrupti, temporibus quisquam distinctio quis.</p>
-          
-           
+      <section class="experience">
+        <div class="container--exp">
+            <p class="hover">hover me🤷‍♂️</p>
+          <p class="p--exp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima enim
+            iste eum voluptatem ipsa dolores dolorum et nam culpa quo.
+            Necessitatibus rem adipisci exercitationem commodi inventore quas,
+            quis aut ab?
+          </p>
+          <p class="p--exp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima enim
+            iste eum voluptatem ipsa dolores dolorum et nam culpa quo.
+            Necessitatibus rem adipisci exercitationem commodi inventore quas,
+            quis aut ab?
+          </p>
+          <p class="p--exp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima enim
+            iste eum voluptatem ipsa dolores dolorum et nam culpa quo.
+            Necessitatibus rem adipisci exercitationem commodi inventore quas,
+            quis aut ab?
+          </p>
         </div>
       </section>
     </main>
-    <!-- *********end-main***************** -->
-    <!-- ************************************** -->
-    <footer>@Copyright 👀adrianbaltag 2022- All Right Reserved.</footer>
-</body>
+
+    <footer>
+        <nav class="footer">
+          <ul>
+            <a href="mailto:fbaltag83@gmail.com"
+              ><li><ion-icon name="mail-outline" target="_blank"></ion-icon></li
+            ></a>
+            <a href="https://github.com/adrianbaltag" target="_blank"
+              ><li><ion-icon name="logo-github"></ion-icon></li
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/adrian-baltag-747285221/"
+              target="_blank"
+              ><li><ion-icon name="logo-linkedin"></ion-icon></li
+            ></a>
+          </ul>
+        </nav>
+        <p class="footer-par">
+          &copy; 2022 || 👀 adrianbaltag - all rights reserved
+        </p>
+      </footer>
+  
+      <!-- icons -->
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+  </body>
 </html>
