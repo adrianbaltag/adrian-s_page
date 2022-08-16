@@ -196,7 +196,7 @@ span {
   background-size: cover;
   cursor: pointer;
   transition: all 1s;
-  overflow: hidden;
+ 
 }
 
 .hover {
@@ -234,7 +234,7 @@ span {
   height: 100%;
   width: 100%;
   margin-bottom: 1em;
-  overflow-y: scroll;
+  
   cursor: pointer;
 }
 
